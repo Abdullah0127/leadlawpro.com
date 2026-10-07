@@ -6,19 +6,8 @@ function SiteHeader({ activePage = 'home' }) {
 
   return (
     <>
-      {activePage === 'home' && <div className="trustbar">
-        <div className="trustbar-inner">
-          <div className="review-summary" aria-label="Client rating 4.8 out of 5">
-            <span className="google-mark">G</span>
-            <span className="trust-label">Client rating</span>
-            <strong>4.8</strong>
-            <span className="stars" aria-hidden="true">★★★★★</span>
-          </div>
-          <div className="trust-stat"><strong>11+</strong><span>years of experience</span></div>
-          <div className="trust-stat"><strong>24/7</strong><span>here when you need us</span></div>
-          <p className="trust-note">Clear guidance after a road accident</p>
-        </div>
-      </div>}
+      
+        
       <header className="site-header">
         <a className="brand" href="/" aria-label="Road Accident Support home">
           <BrandMark />
